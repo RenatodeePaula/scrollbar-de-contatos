@@ -108,6 +108,18 @@ form {
     display: flex;
     flex-direction: column;
     gap: 52px;
+
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+.contacts::-webkit-scrollbar {
+    width: 8px;
+}
+
+.contacts::-webkit-scrollbar-thumb {
+    background: #282843;
+    border-radius: 999px;
 }
 
 .letter {
@@ -159,8 +171,6 @@ form {
 .yellow {
     --color: #b38c00;
 }
-
-/* ==== */
 
 .person h3 {
     font-weight: 700;
